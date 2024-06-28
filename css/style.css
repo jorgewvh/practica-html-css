@@ -9,8 +9,12 @@ body{
     line-height: 1.6;
 }
 
-.header {
+header {
     text-align: center;
+    width: 100%;
+}
+
+header .logo img{
     width: 100%;
 }
 
@@ -39,6 +43,7 @@ body{
 
 .nav ul li:hover{
     background-color: #cf2e2e;
+    cursor: pointer;
 }
 
 .main-content{
@@ -57,12 +62,12 @@ body{
 }
 
 .content img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
 }
 
 .sidebar{
-    flex: 1;
+    flex: 2;
     padding: 1rem;
     background-color: #f4f4f4;
     border-radius: 15px;
@@ -80,6 +85,7 @@ body{
     cursor: pointer;
     color: white;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 .footer{
